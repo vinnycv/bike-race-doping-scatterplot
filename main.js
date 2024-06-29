@@ -1,7 +1,8 @@
 import './style.css'
-import { setupCounter } from './counter.js'
+// import { setupCounter } from './counter.js'
+import './scatterplot.js'
 
-document.querySelector('#app').innerHTML = `
+document.querySelector('.container').innerHTML = `
   <div>
     <a href="https://vitejs.dev" target="_blank">
       <img src="${viteLogo}" class="logo" alt="Vite logo" />

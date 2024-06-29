@@ -8,6 +8,8 @@
 //   setCounter(0)
 // }
 
+import * as d3 from 'd3';
+import './style.css'; 
 
 const h = 600;
 const w = 900;
@@ -52,7 +54,8 @@ const colors = d3.scaleOrdinal(d3.schemeCategory10);
 
 
 // fetch data
-d3.json("https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/cyclist-data.json").then((response) => {
+d3.json("https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/cyclist-data.json")
+  .then((response) => { // on successful response, create barchart
   const dataset = response;
   
   const maxYear = d3.max(dataset, (d) => d.Year + 1); 
