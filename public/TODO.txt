@@ -1,0 +1,10 @@
+add some kind of functionality around the d3? 
+    make an app out of it?
+
+get the chart to render
+
+delete main.js?
+
+make tooltip bigger font 
+
+move tooltip a bit further from pointer, it covers the first letter sometimes.
